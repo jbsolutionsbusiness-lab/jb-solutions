@@ -43,6 +43,6 @@ form.addEventListener("submit", (event) => {
     `Business: ${business}\nContact: ${name}\nEmail: ${email}\n\nWhat needs improvement:\n${message}`
   );
 
-  window.location.href = `mailto:jacenb2005@gmail.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:jbsolutions.business@outlook.com?subject=${subject}&body=${body}`;
   note.textContent = "Opening your email app…";
 });
